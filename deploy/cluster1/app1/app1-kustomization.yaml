@@ -5,8 +5,8 @@ metadata:
   name: app1
   namespace: flux-system
 spec:
-  dependsOn:
-  - name: observability
+  # dependsOn:
+  # - name: observability
   interval: 1m0s
   path: ./deploy/cluster1/app1
   prune: true
