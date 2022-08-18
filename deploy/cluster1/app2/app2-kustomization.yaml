@@ -7,7 +7,7 @@ metadata:
 spec:
   # dependsOn:
   # - name: observability
-  interval: 1m0s
+  interval: 5m0s
   path: ./deploy/cluster1/app2
   prune: true
   sourceRef:
