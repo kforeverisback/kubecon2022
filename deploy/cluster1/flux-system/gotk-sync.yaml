@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./deploy/bootstrap
+  path: ./deploy/cluster1/flux-system/kustomization.yaml
   prune: true
   sourceRef:
     kind: GitRepository
