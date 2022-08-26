@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- app1/app1-kustomization.yaml # Flux kustomizations
-- app2/app2-kustomization.yaml
+- ../app1/app1-kustomization.yaml # Flux kustomizations
+- ../app2/app2-kustomization.yaml
 # - app3/app3-kustomization.yaml

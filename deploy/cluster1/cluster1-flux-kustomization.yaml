@@ -9,7 +9,7 @@ spec:
   # - name: observability
   interval: 1m0s # detect drift and undo kubectl edits every minute
   prune: true # remove stale resources from cluster
-  path: ./deploy/cluster1/ # This is where the cluster kustomization.yaml resides
+  path: ./deploy/cluster1/flux-kustomization/ # This is where the cluster kustomization.yaml resides
   sourceRef:
     kind: GitRepository
     name: flux-system
